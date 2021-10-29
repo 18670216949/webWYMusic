@@ -13,7 +13,7 @@
           <el-menu
             :default-active="this.$store.state.activeIndex"
             mode="horizontal"
-            background-color="#545c64"
+            background-color="#074079"
             text-color="#DFDFDF"
             active-text-color="#fff"
             @select="setActiveIndex"
@@ -241,7 +241,7 @@ export default {
 <style lang='less' scoped>
 .container {
   height: 69px;
-  background-color: #545c64;
+  background-color: #074079;
   height: 100%;
 }
 

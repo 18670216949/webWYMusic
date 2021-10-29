@@ -4,7 +4,7 @@
       <el-col :offset="2" :span="20">
         <el-card>
           <!-- 搜索框 -->
-          <el-row>
+          <el-row style="background-color:#074079">
             <el-col :offset="6" :span="12">
               <div class="search-p">
                 <search></search>
@@ -550,7 +550,8 @@ export default {
         top: 0;
         color: #fff;
         line-height: 1.5;
-        background-color: rgba(rgb(156, 156, 156), 0.5);
+        background-color:rgb(156, 156, 156)
+        // background-color: rgba(rgb(156, 156, 156), 0.5);
       }
     }
     p {

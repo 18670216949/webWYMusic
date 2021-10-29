@@ -467,7 +467,7 @@ export default {
   color: #fff !important;
 }
 .lineLight {
-  color: #fff !important;
+  color: yellow !important;
   font-size: 16px !important;
 }
 </style>

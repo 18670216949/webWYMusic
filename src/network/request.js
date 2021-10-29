@@ -5,7 +5,7 @@ import 'nprogress/nprogress.css'
 
 export function request(config) {
     const instance = axios.create({
-        baseURL: 'http://localhost:3000/',
+        baseURL: 'https://net-music-one.vercel.app/',
         withCredentials: true,  // 允许请求携带 cookie
        
     })
